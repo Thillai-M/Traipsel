@@ -1,0 +1,39 @@
+
+:root{
+    --br-radius-sm:5px;
+    --br-radius-full:50%;
+}
+
+.w50pc { width: 50%; }
+.w100pc { width: 100%; }
+.fw{font-weight: 800;}
+.w{width: 170%;}
+
+.fw-500{font-weight: 500;}
+.fw-700{font-weight: 700;}
+.fw-3{font-weight: 550;}
+.lh{line-height:8px}
+.ltr-spc{letter-spacing: 1px;}
+.w-pri{width: 70%;}
+.l-h{line-height: 35px;}
+.b-1px{border:1px solid rgba(255, 255, 255, .3);}
+.btn-w{width: 52%;}
+
+
+
+h1 { font-size: 28px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+
+.zuse-icon { 
+    display: block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0; 
+    fill: currentColor;
+}
+

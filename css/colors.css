@@ -1,0 +1,24 @@
+
+:root{
+    --c-white:#ffffff;
+    --c-white-10:#fafafa;
+    --c-white-15:#f5f5f5;
+    --c-grey:#888888;
+    --c-dark-grey: #28292b;
+    --c-black-shadow:#313041;
+    --c-orange:#e8604c;
+    --c-red:#c91b1b;
+    --c-blue:#0e67da;
+    
+}
+
+
+
+.desc-col{color:#ababab;}
+.c-grey{color:#888888;}
+.c-red{color: #941414;}
+.c-wht{color: white;}
+.c-lite-wht{color:rgba(251,243,242,.7)}
+.bg-c{background-color:rgba(25, 25, 25, 0.9);}
+.c-b{color: #313041;}
+.c-icon{color: #e8604c;}
