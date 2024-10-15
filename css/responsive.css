@@ -1,7 +1,50 @@
 
 @media only screen and (max-width:900px) {
 
-    .main-header{
+    .menu-btn{
+        display: block;
+    }
+    .close-btn{
+        display: block;
+        color: var(--c-white);
+    }
+    .menu-nav-container{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        transition: var(--default-trans);
+    }
+    .main-header.show-header .menu-nav-container{
+        visibility: visible;
+    }
+    .main-header .menu-nav-pop{
+        display: flex;
+        width: 210px;
+        height: 100%;
+        top: 0;
+        position: fixed;
+        left: -200px;
+        background-color: var(--c-black-deaf);
+        padding: 40px 20px;
+        transition: var(--default-trans);
+    }
+    .main-header.show-header .menu-nav-pop{
+        left:0;
+    }
+    .logo-cont{
+        padding-left: 20px;
+    }
+    .main-nav-lists{
+        flex-direction: column;
+        align-items: start;
+    }
+    .main-nav-link,.main-nav-tittle{
+        color:var(--c-white);
+    }
+
+    .contact-icon{
         display: none;
     }
     .fst-banner{
