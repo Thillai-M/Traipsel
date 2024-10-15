@@ -30,6 +30,17 @@
     background:var(--c-red);
 }
 
-
+.close-btn,.menu-btn{
+    display: none;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    background: none;
+}
+.close-btn{
+    top: 10px;
+    left: 160px;
+}
 
 

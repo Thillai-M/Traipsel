@@ -39,11 +39,15 @@
 		<!-- header -->
 		<header class="main-header">
 			<div class="container D-flx JC-SB AI-C">
-				<div>
+				<button class="menu-btn" onclick="show_menu()">
+					<i class='bx bx-menu f22'></i>
+				</button>
+				<div class="logo-cont">
 					<a href="#" class="logo-cont"> <img src="./images/Logo.svg" class="logo-img" /> </a>
 				</div>
 
-				<nav class="main-nav">
+				<nav class="menu-nav-container">
+					<div class="menu-nav-pop">
 					<ul class="main-nav-lists D-flx G-30">
 						<li class="main-nav-list">
 							<a class="main-nav-link" href="#"><span class="main-nav-tittle">HOME</span></a>
@@ -61,6 +65,10 @@
 							<a class="main-nav-link" href="#"><span class="main-nav-tittle">MORE</span><i class="bx bx-chevron-down"></i></a>
 						</li>
 					</ul>
+				    </div>
+					<button class="close-btn" onclick="hide_menu()">
+						<i class='bx bx-window-close f24'></i>
+					</button>
 				</nav>
 
 				<div class="contact-icon">
@@ -135,7 +143,7 @@
 			<!-- packages -->
 			<section class="packages">
 				<div class="container">
-					<div class="packages-header"><h1 class="heading-secondary mB70">OUR PACKAGES</h1></div>
+					<div class="Ta-c"><h1 class="heading-secondary mB70">OUR PACKAGES</h1></div>
 
 					<div class="cards mB60 D-flx JC-SA">
 						<div class="card">
@@ -563,5 +571,17 @@
 			<img src="./images/chat-bot-2.jpg" alt="bot" class="chat-img" />
 		</button>
 		<!--///chat-bot -->
+
+		<script>
+			let main_header = document.querySelector(".main-header")
+
+			function show_menu(){
+				main_header.classList.add("show-header");
+			}
+
+			function hide_menu(){
+				main_header.classList.remove("show-header");
+			}
+		</script>
 	</body>
 </html>
