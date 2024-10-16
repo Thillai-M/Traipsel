@@ -50,7 +50,7 @@
     .fst-banner{
         display: none;
     }
-    .packages .card{
+    .packages .card-box{
         width: 50%;
     }
     .asurance .col{
@@ -80,9 +80,9 @@
 
 
 
-@media only screen and (max-width:560px) {
+@media only screen and (max-width:480px) {
 
-    .packages .card{
+    .packages .card-box{
         width: 100%;
     }
     .asurance .col{
